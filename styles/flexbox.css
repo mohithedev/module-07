@@ -1,0 +1,52 @@
+h1{
+    color: blueviolet;
+}
+.container{
+    height: 350px;
+    border: 2px solid salmon;
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    place-items: center;
+    place-content: center;
+}
+.box{
+    border: 2px dashed crimson;
+    width: 100px;
+    height: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.login_container{
+    display: flex;
+    place-content: center;
+    border: 2px solid purple;
+}
+.login{
+    display: flex;
+    flex-direction: column; 
+    width: 40%;
+    border: 2px solid blueviolet;
+}
+.login input{
+    margin-bottom: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.item{
+    border:2px solid salmon;
+}
+.item:first-child{
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
